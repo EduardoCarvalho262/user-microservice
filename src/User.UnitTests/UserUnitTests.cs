@@ -1,4 +1,3 @@
-using System.Net;
 using Moq;
 using User.API.Controllers.HealthCheck;
 using User.API.Controllers.UserApiController;
@@ -11,7 +10,7 @@ namespace User.UnitTests
     public class UserUnitTests
     {
         private static readonly Guid GuidTest = Guid.Parse("ba094234-0271-4df0-b350-dcab08891149");
-        private static Mock<IUserService> _userServiceMock = new Mock<IUserService>();
+        private static readonly Mock<IUserService> _UserServiceMock = new Mock<IUserService>();
         
         [Fact]
         public void GivenAControllerMethodPingsWhenCallThenReturnPong()
@@ -48,8 +47,8 @@ namespace User.UnitTests
         public void GivenAControllerMethodGetAllWhenCallThenReturnAllUsers()
         {
             //Arrange
-            _userServiceMock.Setup(p => p.GetAll()).Returns(new List<UserModel>() {new UserModel { Id = GuidTest, Name = "Teste"}});
-            var userController = new UserController(_userServiceMock.Object);
+            _UserServiceMock.Setup(p => p.GetAll()).Returns(new List<UserModel>() {new UserModel { Id = GuidTest, Name = "Teste"}});
+            var userController = new UserController(_UserServiceMock.Object);
 
             //Act
             var result = userController.GetAllUsers();
@@ -68,6 +67,51 @@ namespace User.UnitTests
             
             Assert.NotNull(result);
             Assert.Single(result);
+        }
+
+        [Fact]
+        public void GivenAUserServiceWhenPassAIDReturnOneUser()
+        {
+            //Arrange
+            var userService = new UserService();
+            var nameExpected = "Eduardo";
+
+            //Act
+            var result = userService.GetById(GuidTest);
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Equal(nameExpected, result.Name);
+        }
+        
+        [Fact]
+        public void GivenAUserServiceWhenPassAidWrongReturnNull()
+        {
+            //Arrange
+            var userService = new UserService();
+
+            //Act
+            var result = userService.GetById(Guid.NewGuid());
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Null(result.Name);
+        }
+
+        [Fact]
+        public void GivenAControllerMethodGetByIdWhenCallReturnAUser()
+        {
+            //Arrange
+            var userExpected = new UserModel() {Id = GuidTest, Name = "Edu"};
+            _UserServiceMock.Setup(p => p.GetById(It.IsAny<Guid>())).Returns(userExpected);
+            var userController = new UserController(_UserServiceMock.Object);
+            
+            //Act
+            var result = userController.GetById(GuidTest);
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Equal(userExpected.Name, result.Name);
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Net.NetworkInformation;
 
 namespace User.API.Controllers.HealthCheck
 {
