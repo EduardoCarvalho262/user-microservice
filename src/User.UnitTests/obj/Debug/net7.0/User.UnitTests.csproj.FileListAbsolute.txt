@@ -114,3 +114,5 @@ D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\obj\Debug\net7.0
 D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\obj\Debug\net7.0\User.UnitTests.pdb
 D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\obj\Debug\net7.0\User.UnitTests.genruntimeconfig.cache
 D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\obj\Debug\net7.0\ref\User.UnitTests.dll
+D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Castle.Core.dll
+D:\dev\Projetos\Portifolio\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Moq.dll
