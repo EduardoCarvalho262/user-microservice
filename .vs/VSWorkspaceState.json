@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\User.API",
+    "\\src\\User.API\\Controllers",
+    "\\src\\User.API\\Controllers\\UserApiController",
     "\\src\\User.UnitTests"
   ],
-  "SelectedNode": "\\src\\Dockerfile",
   "PreviewInSolutionExplorer": false
 }

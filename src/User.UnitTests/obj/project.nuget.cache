@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VlU6YVtM6lgQshwZXmqaeTZ9hPPMY0yAfCGvjObrwhC701JmBX00WYQqqLwnRrln7aVUmTof1Atcxu+qGtrK5g==",
+  "dgSpecHash": "OaFWQyj/Dc6oRu+tPj0U/rqRcmbVEMILVhFAeNx0u1ULolWGtfF9NszFPzAzZceQM5BuDt7Ytkuc+cLBKGamhA==",
   "success": true,
   "projectFilePath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
   "expectedPackageFiles": [
