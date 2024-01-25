@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj": {}
+    "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj": {}
   },
   "projects": {
-    "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\User.API.csproj": {
+    "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\User.API.csproj",
+        "projectUniqueName": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\User.API.csproj",
-        "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\obj\\",
+        "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj",
+        "packagesPath": "C:\\Users\\eocu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\VisualStudio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\eocu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,25 +72,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj": {
+    "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
         "projectName": "User.UnitTests",
-        "projectPath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\eocu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\VisualStudio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\eocu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,15 +94,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\User.API.csproj": {
-                "projectPath": "D:\\dev\\Projetos\\Portifolio\\user-microservice\\src\\User.API\\User.API.csproj"
+              "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj": {
+                "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj"
               }
             }
           }
@@ -171,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
