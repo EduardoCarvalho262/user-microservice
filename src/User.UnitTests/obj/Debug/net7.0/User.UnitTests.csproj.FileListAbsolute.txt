@@ -235,3 +235,8 @@ C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\obj\Debug\n
 C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\obj\Debug\net7.0\User.UnitTests.pdb
 C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\obj\Debug\net7.0\User.UnitTests.genruntimeconfig.cache
 C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\obj\Debug\net7.0\ref\User.UnitTests.dll
+C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\eocu\Downloads\Estudos\user-microservice\src\User.UnitTests\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
