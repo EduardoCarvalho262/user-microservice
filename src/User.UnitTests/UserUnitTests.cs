@@ -11,6 +11,7 @@ namespace User.UnitTests
     {
         private static readonly Guid GuidTest = Guid.Parse("ba094234-0271-4df0-b350-dcab08891149");
         private static readonly Mock<IUserService> _UserServiceMock = new Mock<IUserService>();
+        private static readonly Mock<IJWTService> _JWTServiceMock = new Mock<IJWTService>();
         
         [Fact]
         public void GivenAControllerMethodPingsWhenCallThenReturnPong()
@@ -48,7 +49,7 @@ namespace User.UnitTests
         {
             //Arrange
             _UserServiceMock.Setup(p => p.GetAll()).Returns(new List<UserModel>() {new UserModel { Id = GuidTest, Name = "Teste"}});
-            var userController = new UserController(_UserServiceMock.Object);
+            var userController = new UserController(_UserServiceMock.Object, _JWTServiceMock.Object);
 
             //Act
             var result = userController.GetAllUsers();
@@ -104,7 +105,7 @@ namespace User.UnitTests
             //Arrange
             var userExpected = new UserModel() {Id = GuidTest, Name = "Edu"};
             _UserServiceMock.Setup(p => p.GetById(It.IsAny<Guid>())).Returns(userExpected);
-            var userController = new UserController(_UserServiceMock.Object);
+            var userController = new UserController(_UserServiceMock.Object, _JWTServiceMock.Object);
             
             //Act
             var result = userController.GetById(GuidTest);
