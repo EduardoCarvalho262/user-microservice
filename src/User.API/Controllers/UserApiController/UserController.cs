@@ -9,10 +9,12 @@ namespace User.API.Controllers.UserApiController
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IJWTService _jwtService;
 
-        public UserController(IUserService userService)
+        public UserController(IUserService userService, IJWTService jWTService)
         {
             _userService = userService;
+            _jwtService = jWTService;
         }
 
         [HttpGet("users")]
@@ -27,6 +29,36 @@ namespace User.API.Controllers.UserApiController
         {
             var response = _userService.GetById(id);
             return response;
+        }
+
+        [HttpPost("token")]
+        public IActionResult GenerateToken([FromBody] UserModel user)
+        {
+            if (user == null)
+            {
+                return BadRequest("Invalid user data");
+            }
+
+            var response = _jwtService.CreateToken(user);
+
+            if (response.Contains("Invalid"))
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
+
+
+        [HttpGet("validateToken")]
+        public IActionResult ValidateToken(string token)
+        {
+            var response = _jwtService.ValidateToken(token);
+
+            if (response is false)
+                return BadRequest(response);
+
+            return Ok(response);
         }
     }
 }

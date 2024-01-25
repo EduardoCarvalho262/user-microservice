@@ -14,6 +14,7 @@ namespace User.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped(typeof(IUserService), typeof(UserService));
+            builder.Services.AddScoped(typeof(IJWTService), typeof(JWTService));
 
             var app = builder.Build();
             

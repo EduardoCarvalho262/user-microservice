@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OmgXW3GcsKGV+WkqYIWSviyibtYN8sEFMUeo2845twWqsn+QuFj5GTabRt+aPlIB01qneQoIQYNRPtwRDTsWxQ==",
+  "dgSpecHash": "PRkEUZieYRUCtNA5JfVFgvw1vGGD8tH+/bSjO+H0Aw602eEIH51lrnu6TxhzTLaf8zt0NE5QX2zL0hS9pZ7kkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\eocu\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\eocu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
