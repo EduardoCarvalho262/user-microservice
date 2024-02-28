@@ -16,7 +16,7 @@ namespace User.API.Services
                 return "User Invalid";
             }
                 
-            //Criar credencias token - Header
+            // Criar credencias token - Header
             var credenciais = new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("minhachaveincrivelparatestetralalalalala")), SecurityAlgorithms.HmacSha256);
 
             // Criar claims - Payload
