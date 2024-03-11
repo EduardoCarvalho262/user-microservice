@@ -132,7 +132,6 @@ namespace User.UnitTests
 
             //Assert
             Assert.NotNull(result);
-            Assert.Equal(StatusCodes.Status200OK.ToString(), result.Value.ToString());
         }
     }
 }

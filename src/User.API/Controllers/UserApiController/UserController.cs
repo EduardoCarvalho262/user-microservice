@@ -43,7 +43,7 @@ namespace User.API.Controllers.UserApiController
             if (response is null)
                 return BadRequest("Ocorreu um erro");
 
-            return Ok();
+            return Ok(user);
         }
 
         [HttpPost("token")]
