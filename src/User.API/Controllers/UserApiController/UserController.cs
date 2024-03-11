@@ -31,6 +31,21 @@ namespace User.API.Controllers.UserApiController
             return response;
         }
 
+
+        [HttpPost("user")]
+        public ActionResult<UserModel> CreateUser([FromBody]UserModel user)
+        {
+            if (user is null)
+                return NotFound();
+
+            var response = _userService.CreateUser(user);
+
+            if (response is null)
+                return BadRequest("Ocorreu um erro");
+
+            return Ok();
+        }
+
         [HttpPost("token")]
         public IActionResult GenerateToken([FromBody] UserModel user)
         {

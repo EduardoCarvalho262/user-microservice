@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Moq;
+using System.Net;
 using User.API.Controllers.HealthCheck;
 using User.API.Controllers.UserApiController;
 using User.API.Interfaces;
@@ -113,6 +116,23 @@ namespace User.UnitTests
             //Assert
             Assert.NotNull(result);
             Assert.Equal(userExpected.Name, result.Name);
+        }
+
+        [Fact]
+        public void GivenAControllerMethodCreateUserWhenCallReturnCreated()
+        {
+            //Arrange
+            var userExpected = new UserModel() { Id = Guid.NewGuid(), Name = "User" };
+            _UserServiceMock.Setup(p => p.CreateUser(It.IsAny<UserModel>())).Returns(userExpected);
+            var userController = new UserController(_UserServiceMock.Object, _JWTServiceMock.Object);
+            var newUser = new UserModel() { Id = userExpected.Id, Name = "User" };
+
+            //Act
+            var result = userController.CreateUser(newUser);
+
+            //Assert
+            Assert.NotNull(result);
+            Assert.Equal(StatusCodes.Status200OK.ToString(), result.Value.ToString());
         }
     }
 }
