@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj": {}
+    "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj": {
+    "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj",
+        "projectUniqueName": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj",
+        "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
         "packagesPath": "C:\\Users\\eocu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\obj\\",
+        "outputPath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eocu\\AppData\\Roaming\\NuGet\\NuGet.Config",

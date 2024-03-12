@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2JWOwcIjT3n8Uiq6u56Yi9us46tM2x0nONHrZYQcws5eno5O9/I2uQENWxF+Xbkg2wCvZqE7xjv/PFaDsp3kw==",
+  "dgSpecHash": "rSeQpRXvTFaIKrfmtdGFHCgI0eywddU42Q5ott7YAxSKCeDji28WTFGcFXXcBtPtMDbsdC1O9fG4dKoUw4aoQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.API\\User.API.csproj",
+  "projectFilePath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eocu\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",

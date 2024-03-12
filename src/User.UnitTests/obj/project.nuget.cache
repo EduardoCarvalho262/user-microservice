@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+gRDnlBJ705AQ1W0LNDPfFyz99U7aEJdbO79DQ8o9LcpAG6W7n+p6GCv1D2sOgTMr+9kYRt0mzzoGwF/4U6sEw==",
+  "dgSpecHash": "Qdc6Nvj7gnrsLIHab2YZm//Dd+UAcsW5xlbluhe8d6OaOGgGamgCkAlbajkekyinuxNypsYj8UF7iCBIPg9ZfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eocu\\Downloads\\Estudos\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.UnitTests\\User.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eocu\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\eocu\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
