@@ -5,7 +5,7 @@ using User.API.Models;
 namespace User.API.Controllers.UserApiController
 {
     [ApiController]
-    [Route("api/v1")]
+    [Route("v1/user")]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -24,7 +24,7 @@ namespace User.API.Controllers.UserApiController
             return response;
         }
 
-        [HttpGet("user/{id:guid}")]
+        [HttpGet("{id:guid}")]
         public UserModel GetById(Guid id)
         {
             var response = _userService.GetById(id);
@@ -32,7 +32,7 @@ namespace User.API.Controllers.UserApiController
         }
 
 
-        [HttpPost("user")]
+        [HttpPost]
         public ActionResult<UserModel> CreateUser([FromBody]UserModel user)
         {
             if (user is null)

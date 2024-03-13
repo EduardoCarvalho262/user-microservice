@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {}
+    "C:\\Users\\alden\\Downloads\\Projetos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {
+    "C:\\Users\\alden\\Downloads\\Projetos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
+        "projectUniqueName": "C:\\Users\\alden\\Downloads\\Projetos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
-        "packagesPath": "C:\\Users\\eocu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eocu\\Downloads\\Estudos\\SuperClickShop\\user-microservice\\src\\User.API\\obj\\",
+        "projectPath": "C:\\Users\\alden\\Downloads\\Projetos\\SuperClickShop\\user-microservice\\src\\User.API\\User.API.csproj",
+        "packagesPath": "C:\\Users\\alden\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alden\\Downloads\\Projetos\\SuperClickShop\\user-microservice\\src\\User.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eocu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alden\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
