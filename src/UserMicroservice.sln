@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.UnitTests", "User.UnitTests\User.UnitTests.csproj", "{3F211F31-F9A5-428E-B3A6-D8FC0E9A849D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.UnitTests", "User.UnitTests\User.UnitTests.csproj", "{3F211F31-F9A5-428E-B3A6-D8FC0E9A849D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "User.API\User.API.csproj", "{5F1491C0-DAC3-4914-AEDD-4DE4352C7D94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API", "User.API\User.API.csproj", "{5F1491C0-DAC3-4914-AEDD-4DE4352C7D94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API.Service", "User.API.Services\User.API.Service.csproj", "{636CCD56-B888-4DDA-8391-A9A24C768ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API.Domain", "User.API.Domain\User.API.Domain.csproj", "{8856A632-C60E-4D37-871B-7B4EA04BE310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5F1491C0-DAC3-4914-AEDD-4DE4352C7D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F1491C0-DAC3-4914-AEDD-4DE4352C7D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F1491C0-DAC3-4914-AEDD-4DE4352C7D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{636CCD56-B888-4DDA-8391-A9A24C768ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{636CCD56-B888-4DDA-8391-A9A24C768ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{636CCD56-B888-4DDA-8391-A9A24C768ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{636CCD56-B888-4DDA-8391-A9A24C768ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8856A632-C60E-4D37-871B-7B4EA04BE310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8856A632-C60E-4D37-871B-7B4EA04BE310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8856A632-C60E-4D37-871B-7B4EA04BE310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8856A632-C60E-4D37-871B-7B4EA04BE310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

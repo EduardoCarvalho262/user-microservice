@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using User.API.Interfaces;
-using User.API.Models;
-
+using User.API.Domain.Models;
+using User.API.Service;
+using User.API.Service.Interfaces;
 namespace User.API.Controllers.UserApiController
 {
     [ApiController]
@@ -36,7 +36,7 @@ namespace User.API.Controllers.UserApiController
         public ActionResult<UserModel> CreateUser([FromBody]UserModel user)
         {
             if (user is null)
-                return NotFound();
+                return BadRequest("O usuário está nulo");
 
             var response = _userService.CreateUser(user);
 
@@ -49,17 +49,13 @@ namespace User.API.Controllers.UserApiController
         [HttpPost("token")]
         public IActionResult GenerateToken([FromBody] UserModel user)
         {
-            if (user == null)
-            {
+            if (user is null)
                 return BadRequest("Invalid user data");
-            }
 
             var response = _jwtService.CreateToken(user);
 
             if (response.Contains("Invalid"))
-            {
                 return BadRequest(response);
-            }
 
             return Ok(response);
         }

@@ -1,7 +1,7 @@
-﻿using User.API.Interfaces;
-using User.API.Models;
+﻿using User.API.Domain.Models;
+using User.API.Service.Interfaces;
 
-namespace User.API.Services;
+namespace User.API.Service.Services;
 
 public class UserService : IUserService
 {
@@ -17,7 +17,7 @@ public class UserService : IUserService
         var result = _users.Find(x => x.Id == id);
         if (result != null) return result;
 
-        return new UserModel();
+        return null;
     }
 
     public UserModel CreateUser(UserModel user)

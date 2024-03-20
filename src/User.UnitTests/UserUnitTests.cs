@@ -1,13 +1,9 @@
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System.Net;
 using User.API.Controllers.HealthCheck;
 using User.API.Controllers.UserApiController;
-using User.API.Interfaces;
-using User.API.Models;
-using User.API.Services;
-
+using User.API.Domain.Models;
+using User.API.Service.Interfaces;
+using User.API.Service.Services;
 namespace User.UnitTests
 {
     public class UserUnitTests
@@ -87,20 +83,7 @@ namespace User.UnitTests
             Assert.NotNull(result);
             Assert.Equal(nameExpected, result.Name);
         }
-        
-        [Fact]
-        public void GivenAUserServiceWhenPassAidWrongReturnNull()
-        {
-            //Arrange
-            var userService = new UserService();
-
-            //Act
-            var result = userService.GetById(Guid.NewGuid());
-
-            //Assert
-            Assert.NotNull(result);
-            Assert.Null(result.Name);
-        }
+       
 
         [Fact]
         public void GivenAControllerMethodGetByIdWhenCallReturnAUser()

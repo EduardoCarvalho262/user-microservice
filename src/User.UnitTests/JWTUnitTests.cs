@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
-using User.API.Models;
-using User.API.Services;
+using User.API.Domain.Models;
+using User.API.Service.Services;
 
 namespace User.UnitTests
 { 

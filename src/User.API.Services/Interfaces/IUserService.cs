@@ -1,6 +1,6 @@
-﻿using User.API.Models;
+﻿using User.API.Domain.Models;
 
-namespace User.API.Interfaces;
+namespace User.API.Service.Interfaces;
 
 public interface IUserService
 {

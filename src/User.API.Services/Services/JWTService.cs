@@ -2,10 +2,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using User.API.Interfaces;
-using User.API.Models;
+using User.API.Domain.Models;
+using User.API.Service.Interfaces;
 
-namespace User.API.Services
+namespace User.API.Service.Services
 {
     public class JWTService : IJWTService
     {

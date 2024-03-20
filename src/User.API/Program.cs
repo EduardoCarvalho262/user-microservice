@@ -1,6 +1,6 @@
 
-using User.API.Interfaces;
-using User.API.Services;
+using User.API.Service.Interfaces;
+using User.API.Service.Services;
 
 namespace User.API
 {
